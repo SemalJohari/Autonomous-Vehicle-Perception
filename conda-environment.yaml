@@ -1,0 +1,27 @@
+name: course
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - pytorch=1.13.0
+  - torchvision=0.14.0
+  - torchaudio=0.13.0
+  - cudatoolkit=11.6
+  - ffmpeg
+  - openssl
+  - requests
+  - pip:
+      - fastai==2.7.10
+      - jupyterlab
+      - wandb==0.13.5
+      - spacy==3.4.3
+      - thinc==8.1.5
+      - notebook
