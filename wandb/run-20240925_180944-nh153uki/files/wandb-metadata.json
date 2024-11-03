@@ -1,0 +1,26 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.5",
+  "startedAt": "2024-09-25T12:39:48.726248Z",
+  "program": "Desktop/My Folder/Autonomous vehicle perception/MLOps Project.ipynb",
+  "email": "semaljohari80@gmail.com",
+  "root": "C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous vehicle perception",
+  "host": "Semal-Lenovo",
+  "username": "Semal",
+  "executable": "C:\\ProgramData\\anaconda3\\python.exe",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "239155015680",
+      "used": "182359003136"
+    }
+  },
+  "memory": {
+    "total": "6312697856"
+  },
+  "cpu": {
+    "count": 2,
+    "countLogical": 4
+  }
+}

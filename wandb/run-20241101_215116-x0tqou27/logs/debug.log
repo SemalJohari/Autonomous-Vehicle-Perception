@@ -1,0 +1,58 @@
+2024-11-01 21:51:16,629 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 21:51:16,629 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Configure stats pid to 14200
+2024-11-01 21:51:16,636 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-11-01 21:51:16,636 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\settings
+2024-11-01 21:51:16,636 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 21:51:16,636 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-01 21:51:16,638 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 21:51:16,638 INFO    MainThread:14200 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 21:51:16,640 INFO    MainThread:14200 [wandb_init.py:_log_setup():534] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_215116-x0tqou27\logs\debug.log
+2024-11-01 21:51:16,640 INFO    MainThread:14200 [wandb_init.py:_log_setup():535] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_215116-x0tqou27\logs\debug-internal.log
+2024-11-01 21:51:16,641 INFO    MainThread:14200 [wandb_init.py:init():621] calling init triggers
+2024-11-01 21:51:16,641 INFO    MainThread:14200 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'arch': 'resnet18', 'pretrained': True, 'seed': 42, 'log_preds': True}
+2024-11-01 21:51:16,641 INFO    MainThread:14200 [wandb_init.py:init():646] re-initializing run, found existing run on stack: 3vsi4jwq
+2024-11-01 21:51:16,646 INFO    MainThread:14200 [wandb_run.py:_finish():2158] finishing run semaljohari80/mlops-course-001/3vsi4jwq
+2024-11-01 21:51:16,648 INFO    MainThread:14200 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-11-01 21:51:16,649 INFO    MainThread:14200 [wandb_run.py:_restore():2408] restore
+2024-11-01 21:51:16,650 INFO    MainThread:14200 [wandb_run.py:_restore():2414] restore done
+2024-11-01 22:10:16,029 WARNING MainThread:14200 [wandb_init.py:init():1260] interrupted
+Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 656, in init
+    latest_run.finish()
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 452, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 393, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 2151, in finish
+    return self._finish(exit_code, quiet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 2185, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 2438, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_run.py", line 2688, in _on_finish
+    _ = exit_handle.wait(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\anaconda3\Lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-11-01 22:10:31,184 WARNING MsgRouterThr:14200 [router.py:message_loop():77] message_loop has been closed

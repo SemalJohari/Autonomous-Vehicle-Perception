@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-11-01T19:58:00.077963",
+    "startedAt": "2024-11-01T19:57:58.619483",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--arch=resnet18",
+        "--batch_size=4",
+        "--img_size=240",
+        "--log_preds=False",
+        "--lr=0.00793997442068864"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "Semal-Lenovo",
+    "username": "Semal",
+    "executable": "C:\\Users\\Semal\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2600.0,
+        "min": 0.0,
+        "max": 2600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600.0,
+            "min": 0.0,
+            "max": 2600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 222.73046493530273,
+            "used": 203.90672302246094
+        }
+    },
+    "memory": {
+        "total": 5.879158020019531
+    }
+}

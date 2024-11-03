@@ -1,0 +1,163 @@
+_wandb:
+    value:
+        cli_version: 0.18.1
+        m: []
+        python_version: 3.11.5
+        t:
+            "1":
+                - 1
+                - 4
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            "2":
+                - 1
+                - 4
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            "3":
+                - 2
+                - 16
+                - 23
+                - 55
+                - 61
+            "4": 3.11.5
+            "5": 0.18.1
+            "6": 4.32.1
+            "8":
+                - 1
+                - 3
+                - 5
+            "12": 0.18.1
+            "13": windows-amd64
+CastToTensor:
+    value: true
+Learner:
+    value:
+        _name: <fastai.learner.Learner object at 0x000002B9E6927BD0>
+        arch: torchvision.models.resnet.resnet18
+        default_cbs: true
+        loss_func:
+            _name: FlattenedLoss of CrossEntropyLoss()
+            axis: 1
+            flatten: true
+            floatify: false
+            is_2d: true
+        lr: 0.001
+        metrics:
+            - <__main__.MIOU object at 0x000002B9E66253D0>
+            - <__main__.BackgroundIOU object at 0x000002B9E6630510>
+            - <__main__.RoadIOU object at 0x000002B9E5E0EF90>
+            - <__main__.TrafficLightIOU object at 0x000002B9E5E0D750>
+            - <__main__.TrafficSignIOU object at 0x000002B9E6386950>
+            - <__main__.PersonIOU object at 0x000002B9E6385FD0>
+            - <__main__.VehicleIOU object at 0x000002B9E6386610>
+            - <__main__.BicycleIOU object at 0x000002B9E6387790>
+        model_dir: models
+        moms:
+            - 0.95
+            - 0.85
+            - 0.95
+        n_out: 7
+        normalize: true
+        opt_func: fastai.optimizer.Adam
+        path: .
+        pretrained: true
+        splitter: fastai.vision.learner._resnet_split
+        train_bn: true
+        wd: null
+        wd_bn_bias: false
+ParamScheduler:
+    value: true
+ProgressCallback:
+    value: true
+Recorder:
+    value:
+        add_time: true
+        train_metrics: false
+        valid_metrics: true
+SaveModelCallback:
+    value:
+        at_end: false
+        every_epoch: false
+        fname: model
+        with_opt: false
+TrainEvalCallback:
+    value: true
+WandbCallback:
+    value:
+        dataset_name: null
+        log: null
+        log_dataset: false
+        log_model: true
+        log_preds: false
+        log_preds_every_epoch: false
+        model_name: null
+        n_preds: 36
+        reorder: true
+        seed: 12345
+        valid_dl: null
+augment:
+    value: true
+batch per epoch:
+    value: 100
+batch size:
+    value: 8
+batch_size:
+    value: 8
+dataset.tfms:
+    value: '[Pipeline: ColReader -- {''cols'': ''image_fname'', ''pref'': '''', ''suff'': ''.jpg'', ''label_delim'': None} -> PILBase.create, Pipeline: ColReader -- {''cols'': ''label_fname'', ''pref'': '''', ''suff'': '''', ''label_delim'': None} -> PILBase.create]'
+device:
+    value: cpu
+dls.after_batch:
+    value: |-
+        Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size': None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest', 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p': 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],
+
+                 [[0.4560]],
+
+                 [[0.4060]]]]), 'std': tensor([[[[0.2290]],
+
+                 [[0.2240]],
+
+                 [[0.2250]]]]), 'axes': (0, 2, 3)}
+dls.after_item:
+    value: 'Pipeline: AddMaskCodes -> Resize -- {''size'': (320, 180), ''method'': ''crop'', ''pad_mode'': ''reflection'', ''resamples'': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST: 0>), ''p'': 1.0} -> ToTensor'
+dls.before_batch:
+    value: 'Pipeline: '
+epochs:
+    value: 10
+framework:
+    value: fastai
+frozen:
+    value: true
+frozen idx:
+    value: 2
+img_size:
+    value:
+        - 180
+        - 320
+input 1 dim 1:
+    value: 8
+input 1 dim 2:
+    value: 3
+input 1 dim 3:
+    value: 180
+input 1 dim 4:
+    value: 320
+lr:
+    value: 0.002
+model parameters:
+    value: 31113508
+n_inp:
+    value: 1
+pretrained:
+    value: true
+seed:
+    value: 42

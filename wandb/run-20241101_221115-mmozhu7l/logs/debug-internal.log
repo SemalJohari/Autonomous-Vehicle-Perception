@@ -1,0 +1,9 @@
+{"time":"2024-11-01T22:11:15.325503+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T22:11:15.3263941+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_221115-mmozhu7l\\logs\\debug-core.log"}
+{"time":"2024-11-01T22:11:15.8656871+05:30","level":"INFO","msg":"created new stream","id":"mmozhu7l"}
+{"time":"2024-11-01T22:11:15.8656871+05:30","level":"INFO","msg":"stream: started","id":"mmozhu7l"}
+{"time":"2024-11-01T22:11:15.8656871+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mmozhu7l"}}
+{"time":"2024-11-01T22:11:15.8656871+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mmozhu7l"}}
+{"time":"2024-11-01T22:11:15.8662203+05:30","level":"INFO","msg":"sender: started","stream_id":"mmozhu7l"}
+{"time":"2024-11-01T22:11:16.4724779+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-01T22:11:51.9065901+05:30","level":"INFO","msg":"Pausing system monitor"}

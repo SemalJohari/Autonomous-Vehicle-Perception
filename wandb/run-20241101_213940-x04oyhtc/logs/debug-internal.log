@@ -1,0 +1,9 @@
+{"time":"2024-11-01T21:39:40.5583598+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T21:39:40.5597015+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_213940-x04oyhtc\\logs\\debug-core.log"}
+{"time":"2024-11-01T21:39:40.9536855+05:30","level":"INFO","msg":"created new stream","id":"x04oyhtc"}
+{"time":"2024-11-01T21:39:40.9542726+05:30","level":"INFO","msg":"stream: started","id":"x04oyhtc"}
+{"time":"2024-11-01T21:39:40.9542726+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"x04oyhtc"}}
+{"time":"2024-11-01T21:39:40.9542726+05:30","level":"INFO","msg":"sender: started","stream_id":"x04oyhtc"}
+{"time":"2024-11-01T21:39:40.9547881+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"x04oyhtc"}}
+{"time":"2024-11-01T21:39:41.5427979+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-01T21:39:41.5434015+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}

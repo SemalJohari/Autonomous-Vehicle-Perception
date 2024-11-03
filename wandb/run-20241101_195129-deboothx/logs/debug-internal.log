@@ -1,0 +1,11 @@
+{"time":"2024-11-01T19:51:29.9351289+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-01T19:51:29.9351289+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_195129-deboothx\\logs\\debug-core.log"}
+{"time":"2024-11-01T19:51:29.9370284+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-01T19:51:29.9370284+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_195129-deboothx\\logs\\debug-core.log"}
+{"time":"2024-11-01T19:51:29.959168+05:30","level":"INFO","msg":"created new stream","id":"deboothx"}
+{"time":"2024-11-01T19:51:29.9596853+05:30","level":"INFO","msg":"stream: started","id":"deboothx"}
+{"time":"2024-11-01T19:51:29.9596853+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"deboothx"}}
+{"time":"2024-11-01T19:51:29.9596853+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"deboothx"}}
+{"time":"2024-11-01T19:51:29.9596853+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"deboothx"}}
+{"time":"2024-11-01T19:51:30.347733+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-01T19:51:30.3479878+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}

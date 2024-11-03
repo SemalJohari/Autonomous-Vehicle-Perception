@@ -1,0 +1,12 @@
+wandb_version: 1
+
+arch:
+  value: mobilenet_v3_small
+batch_size:
+  value: 8
+img_size:
+  value: 240
+log_preds:
+  value: false
+lr:
+  value: 0.00034184101089156435

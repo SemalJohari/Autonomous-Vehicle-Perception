@@ -1,0 +1,34 @@
+2024-11-01 20:26:52,971 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-01 20:26:52,971 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Configure stats pid to 23892
+2024-11-01 20:26:52,971 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-11-01 20:26:52,971 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\settings
+2024-11-01 20:26:52,971 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-01 20:26:52,979 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-01 20:26:52,979 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 20:26:52,979 INFO    MainThread:23892 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-01 20:26:52,979 INFO    MainThread:23892 [wandb_init.py:_log_setup():534] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_202652-6d0olov2\logs\debug.log
+2024-11-01 20:26:52,979 INFO    MainThread:23892 [wandb_init.py:_log_setup():535] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_202652-6d0olov2\logs\debug-internal.log
+2024-11-01 20:26:52,982 INFO    MainThread:23892 [wandb_init.py:init():621] calling init triggers
+2024-11-01 20:26:52,982 INFO    MainThread:23892 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'arch': 'resnet18', 'pretrained': True, 'seed': 42, 'log_preds': True}
+2024-11-01 20:26:52,982 INFO    MainThread:23892 [wandb_init.py:init():671] starting backend
+2024-11-01 20:26:52,982 INFO    MainThread:23892 [wandb_init.py:init():675] sending inform_init request
+2024-11-01 20:26:52,998 INFO    MainThread:23892 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 20:26:53,000 INFO    MainThread:23892 [wandb_init.py:init():688] backend started and connected
+2024-11-01 20:26:53,051 INFO    MainThread:23892 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-01 20:26:53,067 INFO    MainThread:23892 [wandb_run.py:_label_probe_notebook():1352] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-11-01 20:26:53,067 INFO    MainThread:23892 [wandb_init.py:init():783] updated telemetry
+2024-11-01 20:26:53,069 INFO    MainThread:23892 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-01 20:28:23,983 ERROR   MainThread:23892 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 20:28:23,983 ERROR   MainThread:23892 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 20:29:33,442 WARNING MsgRouterThr:23892 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 20:29:33,442 WARNING MsgRouterThr:23892 [router.py:message_loop():77] message_loop has been closed

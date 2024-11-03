@@ -1,0 +1,39 @@
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Configure stats pid to 21860
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\settings
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_init.py:_log_setup():532] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20241029_235702-oznoy54b\logs\debug.log
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_init.py:_log_setup():533] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20241029_235702-oznoy54b\logs\debug-internal.log
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_init.py:init():616] calling init triggers
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'pretrained': True, 'seed': 42}
+2024-10-29 23:57:02,502 INFO    MainThread:21860 [wandb_init.py:init():641] re-initializing run, found existing run on stack: s257ejt6
+2024-10-29 23:57:02,509 INFO    MainThread:21860 [wandb_run.py:_finish():2158] finishing run semaljohari80/mlops-course-001/s257ejt6
+2024-10-29 23:57:02,514 INFO    MainThread:21860 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-29 23:57:02,514 INFO    MainThread:21860 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-29 23:57:02,514 INFO    MainThread:21860 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-29 23:57:02,514 INFO    MainThread:21860 [wandb_run.py:_atexit_cleanup():2422] got exitcode: 0
+2024-10-29 23:57:02,517 INFO    MainThread:21860 [wandb_run.py:_restore():2404] restore
+2024-10-29 23:57:02,517 INFO    MainThread:21860 [wandb_run.py:_restore():2410] restore done
+2024-10-29 23:57:05,898 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():4037] rendering history
+2024-10-29 23:57:05,898 INFO    MainThread:21860 [wandb_run.py:_footer_history_summary_info():4069] rendering summary
+2024-10-29 23:57:05,977 INFO    MainThread:21860 [wandb_run.py:_footer_sync_info():3996] logging synced files
+2024-10-29 23:57:06,696 INFO    MainThread:21860 [wandb_init.py:init():666] starting backend
+2024-10-29 23:57:06,696 INFO    MainThread:21860 [wandb_init.py:init():670] setting up manager
+2024-10-29 23:57:06,702 INFO    MainThread:21860 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-10-29 23:57:06,710 INFO    MainThread:21860 [wandb_init.py:init():678] backend started and connected
+2024-10-29 23:57:06,757 INFO    MainThread:21860 [wandb_run.py:_label_probe_notebook():1340] probe notebook
+2024-10-29 23:57:06,757 INFO    MainThread:21860 [wandb_run.py:_label_probe_notebook():1350] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-29 23:57:06,757 INFO    MainThread:21860 [wandb_init.py:init():773] updated telemetry
+2024-10-29 23:57:06,760 INFO    MainThread:21860 [wandb_init.py:init():806] communicating run to backend with 90.0 second timeout
+2024-10-29 23:57:07,224 INFO    MainThread:21860 [wandb_init.py:init():857] starting run threads in backend
+2024-10-29 23:57:08,995 INFO    MainThread:21860 [wandb_run.py:_console_start():2459] atexit reg
+2024-10-29 23:57:08,996 INFO    MainThread:21860 [wandb_run.py:_redirect():2307] redirect: wrap_raw
+2024-10-29 23:57:08,996 INFO    MainThread:21860 [wandb_run.py:_redirect():2372] Wrapping output streams.
+2024-10-29 23:57:08,996 INFO    MainThread:21860 [wandb_run.py:_redirect():2397] Redirects installed.
+2024-10-29 23:57:08,997 INFO    MainThread:21860 [wandb_init.py:init():900] run started, returning control to user process
+2024-10-30 00:25:45,185 WARNING MsgRouterThr:21860 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,79 @@
+2024-09-25 17:45:31,887 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-09-25 17:45:31,887 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Configure stats pid to 15064
+2024-09-25 17:45:31,887 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-09-25 17:45:31,888 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\settings
+2024-09-25 17:45:31,888 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-09-25 17:45:31,888 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-09-25 17:45:31,914 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-09-25 17:45:31,914 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-09-25 17:45:31,914 INFO    MainThread:15064 [wandb_init.py:_log_setup():532] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20240925_174531-1zoiawuu\logs\debug.log
+2024-09-25 17:45:31,914 INFO    MainThread:15064 [wandb_init.py:_log_setup():533] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20240925_174531-1zoiawuu\logs\debug-internal.log
+2024-09-25 17:45:31,914 INFO    MainThread:15064 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027CC8463090>
+2024-09-25 17:45:31,916 INFO    MainThread:15064 [wandb_init.py:init():616] calling init triggers
+2024-09-25 17:45:31,916 INFO    MainThread:15064 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {}
+2024-09-25 17:45:31,916 INFO    MainThread:15064 [wandb_init.py:init():666] starting backend
+2024-09-25 17:45:31,916 INFO    MainThread:15064 [wandb_init.py:init():670] setting up manager
+2024-09-25 17:45:31,928 INFO    MainThread:15064 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-09-25 17:45:31,942 INFO    MainThread:15064 [wandb_init.py:init():678] backend started and connected
+2024-09-25 17:45:31,984 INFO    MainThread:15064 [wandb_run.py:_label_probe_notebook():1340] probe notebook
+2024-09-25 17:45:31,984 INFO    MainThread:15064 [wandb_run.py:_label_probe_notebook():1350] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-09-25 17:45:31,989 INFO    MainThread:15064 [wandb_init.py:init():773] updated telemetry
+2024-09-25 17:45:31,993 INFO    MainThread:15064 [wandb_init.py:init():806] communicating run to backend with 90.0 second timeout
+2024-09-25 17:45:32,591 INFO    MainThread:15064 [wandb_init.py:init():857] starting run threads in backend
+2024-09-25 17:45:34,041 INFO    MainThread:15064 [wandb_run.py:_console_start():2459] atexit reg
+2024-09-25 17:45:34,041 INFO    MainThread:15064 [wandb_run.py:_redirect():2307] redirect: wrap_raw
+2024-09-25 17:45:34,041 INFO    MainThread:15064 [wandb_run.py:_redirect():2372] Wrapping output streams.
+2024-09-25 17:45:34,042 INFO    MainThread:15064 [wandb_run.py:_redirect():2397] Redirects installed.
+2024-09-25 17:45:34,095 INFO    MainThread:15064 [wandb_init.py:init():900] run started, returning control to user process
+2024-09-25 17:45:34,271 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:45:34,271 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:45:35,459 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:45:35,475 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:45:35,475 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:45:37,097 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:45:37,237 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:45:37,237 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:45:42,666 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:45:42,713 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:45:42,713 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:45:58,868 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:45:58,872 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:45:58,874 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:46:00,190 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:46:00,193 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:46:00,193 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:46:00,999 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:46:01,002 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:46:01,002 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 17:46:02,051 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 17:46:31,894 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 17:46:31,894 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 18:09:43,012 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 18:09:43,024 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 18:09:43,024 INFO    MainThread:15064 [wandb_init.py:_pause_backend():443] pausing backend
+2024-09-25 18:09:44,584 INFO    MainThread:15064 [wandb_init.py:_resume_backend():448] resuming backend
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Configure stats pid to 15064
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\settings
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-09-25 18:09:44,622 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_init.py:_log_setup():532] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20240925_180944-nh153uki\logs\debug.log
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_init.py:_log_setup():533] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous vehicle perception\wandb\run-20240925_180944-nh153uki\logs\debug-internal.log
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_init.py:init():616] calling init triggers
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {}
+2024-09-25 18:09:44,666 INFO    MainThread:15064 [wandb_init.py:init():641] re-initializing run, found existing run on stack: 1zoiawuu
+2024-09-25 18:09:44,672 INFO    MainThread:15064 [wandb_run.py:_finish():2158] finishing run semaljohari80/mlops-course-001/1zoiawuu
+2024-09-25 18:09:44,679 INFO    MainThread:15064 [jupyter.py:save_history():459] not saving jupyter history
+2024-09-25 18:09:44,679 INFO    MainThread:15064 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-09-25 18:09:44,679 INFO    MainThread:15064 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-09-25 18:09:44,679 INFO    MainThread:15064 [wandb_run.py:_atexit_cleanup():2422] got exitcode: 0
+2024-09-25 18:09:44,680 INFO    MainThread:15064 [wandb_run.py:_restore():2404] restore
+2024-09-25 18:09:44,680 INFO    MainThread:15064 [wandb_run.py:_restore():2410] restore done
+2024-09-25 18:09:47,802 INFO    MainThread:15064 [wandb_run.py:_footer_history_summary_info():4037] rendering history
+2024-09-25 18:09:47,802 INFO    MainThread:15064 [wandb_run.py:_footer_history_summary_info():4069] rendering summary
+2024-09-25 18:09:47,818 INFO    MainThread:15064 [wandb_run.py:_footer_sync_info():3996] logging synced files

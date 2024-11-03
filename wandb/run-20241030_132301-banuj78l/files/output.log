@@ -1,0 +1,17 @@
+[34m[1mwandb[0m: Downloading large artifact bdd_simple_1k_split:latest, 813.25MB. 4010 files...
+[34m[1mwandb[0m:   4010 of 4010 files downloaded.  
+Done. 0:0:27.1
+                                                                                                                image_fname
+0  C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\artifacts\bdd_simple_1k_split-v2\images\0027eed2-09c90000
+1  C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\artifacts\bdd_simple_1k_split-v2\images\0027eed2-09c90001
+2  C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\artifacts\bdd_simple_1k_split-v2\images\00aad4a0-ee8135fe
+3  C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\artifacts\bdd_simple_1k_split-v2\images\00d79c0a-23befe54
+4  C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\artifacts\bdd_simple_1k_split-v2\images\00e69ee0-9656df95
+Better model found at epoch 0 with miou value: 0.3086148177722196.
+Better model found at epoch 2 with miou value: 0.3318441515519253.
+Better model found at epoch 3 with miou value: 0.34209279016571875.
+Better model found at epoch 4 with miou value: 0.3485840421328832.
+Better model found at epoch 5 with miou value: 0.360452994157827.
+Better model found at epoch 7 with miou value: 0.3709392022500198.
+Better model found at epoch 8 with miou value: 0.379614366514122.
+Better model found at epoch 9 with miou value: 0.38152260904552954.

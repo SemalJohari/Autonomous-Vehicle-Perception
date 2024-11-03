@@ -1,0 +1,205 @@
+wandb_version: 1
+
+framework:
+  desc: null
+  value: fastai
+img_size:
+  desc: null
+  value: 240
+batch_size:
+  desc: null
+  value: 4
+augment:
+  desc: null
+  value: true
+epochs:
+  desc: null
+  value: 10
+lr:
+  desc: null
+  value: 0.00793997442068864
+pretrained:
+  desc: null
+  value: true
+mixed_precision:
+  desc: null
+  value: true
+arch:
+  desc: null
+  value: resnet18
+seed:
+  desc: null
+  value: 42
+log_preds:
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.9
+    cli_version: 0.18.5
+    framework: fastai
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1730491078
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 53
+      - 55
+      - 105
+      2:
+      - 1
+      - 4
+      - 5
+      - 41
+      - 53
+      - 55
+      - 105
+      3:
+      - 16
+      - 23
+      - 37
+      - 61
+      4: 3.11.9
+      5: 0.18.5
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+Learner:
+  desc: null
+  value:
+    loss_func:
+      axis: 1
+      flatten: true
+      floatify: false
+      is_2d: true
+      _name: FlattenedLoss of CrossEntropyLoss()
+    opt_func: fastai.optimizer.Adam
+    lr: 0.001
+    splitter: fastai.vision.learner._resnet_split
+    metrics:
+    - <__main__.MIOU object at 0x000002870DBB8F50>
+    - <__main__.BackgroundIOU object at 0x000002870DB577D0>
+    - <__main__.RoadIOU object at 0x000002870D3E71D0>
+    - <__main__.TrafficLightIOU object at 0x000002870D208D10>
+    - <__main__.TrafficSignIOU object at 0x000002870D241D50>
+    - <__main__.PersonIOU object at 0x000002870D29B290>
+    - <__main__.VehicleIOU object at 0x000002870DB06D10>
+    - <__main__.BicycleIOU object at 0x000002870D242190>
+    path: .
+    model_dir: models
+    wd: null
+    wd_bn_bias: false
+    train_bn: true
+    moms:
+    - 0.95
+    - 0.85
+    - 0.95
+    default_cbs: true
+    arch: torchvision.models.resnet.resnet18
+    normalize: true
+    n_out: 7
+    pretrained: true
+    _name: <fastai.learner.Learner object at 0x000002870DB88750>
+TrainEvalCallback:
+  desc: null
+  value: true
+Recorder:
+  desc: null
+  value:
+    add_time: true
+    train_metrics: false
+    valid_metrics: true
+CastToTensor:
+  desc: null
+  value: true
+ProgressCallback:
+  desc: null
+  value: true
+ParamScheduler:
+  desc: null
+  value: true
+WandbCallback:
+  desc: null
+  value:
+    log: null
+    log_preds: false
+    log_preds_every_epoch: false
+    log_model: true
+    model_name: null
+    log_dataset: false
+    dataset_name: null
+    valid_dl: null
+    n_preds: 36
+    seed: 12345
+    reorder: true
+SaveModelCallback:
+  desc: null
+  value:
+    fname: run-yzuyn79s-model
+    every_epoch: false
+    at_end: false
+    with_opt: false
+MixedPrecision:
+  desc: null
+  value:
+    amp_mode: FP16
+n_inp:
+  desc: null
+  value: 1
+input 1 dim 1:
+  desc: null
+  value: 4
+input 1 dim 2:
+  desc: null
+  value: 3
+input 1 dim 3:
+  desc: null
+  value: 240
+input 1 dim 4:
+  desc: null
+  value: 426
+batch size:
+  desc: null
+  value: 4
+batch per epoch:
+  desc: null
+  value: 200
+model parameters:
+  desc: null
+  value: 31113508
+device:
+  desc: null
+  value: cpu
+frozen:
+  desc: null
+  value: true
+frozen idx:
+  desc: null
+  value: 2
+dataset.tfms:
+  desc: null
+  value: '[Pipeline: ColReader -- {''cols'': ''image_fname'', ''pref'': '''', ''suff'':
+    '''', ''label_delim'': None} -> PILBase.create, Pipeline: ColReader -- {''cols'':
+    ''label_fname'', ''pref'': '''', ''suff'': '''', ''label_delim'': None} -> PILBase.create]'
+dls.after_item:
+  desc: null
+  value: 'Pipeline: AddMaskCodes -> Resize -- {''size'': (426, 240), ''method'': ''crop'',
+    ''pad_mode'': ''reflection'', ''resamples'': (<Resampling.BILINEAR: 2>, <Resampling.NEAREST:
+    0>), ''p'': 1.0} -> ToTensor'
+dls.before_batch:
+  desc: null
+  value: 'Pipeline: '
+dls.after_batch:
+  desc: null
+  value: "Pipeline: IntToFloatTensor -- {'div': 255.0, 'div_mask': 1} -> Flip -- {'size':\
+    \ None, 'mode': 'bilinear', 'pad_mode': 'reflection', 'mode_mask': 'nearest',\
+    \ 'align_corners': True, 'p': 0.5} -> Brightness -- {'max_lighting': 0.2, 'p':\
+    \ 1.0, 'draw': None, 'batch': False} -> Normalize -- {'mean': tensor([[[[0.4850]],\n\
+    \n         [[0.4560]],\n\n         [[0.4060]]]]), 'std': tensor([[[[0.2290]],\n\
+    \n         [[0.2240]],\n\n         [[0.2250]]]]), 'axes': (0, 2, 3)}"

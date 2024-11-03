@@ -1,0 +1,12 @@
+wandb_version: 1
+
+arch:
+  value: resnet18
+batch_size:
+  value: 4
+img_size:
+  value: 240
+log_preds:
+  value: false
+lr:
+  value: 0.00793997442068864

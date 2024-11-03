@@ -1,0 +1,11 @@
+{"time":"2024-11-01T20:03:37.2121471+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-01T20:03:37.2133101+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_200337-m3q8eztk\\logs\\debug-core.log"}
+{"time":"2024-11-01T20:03:37.2160482+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-01T20:03:37.2160482+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous_vehicle_perception\\wandb\\run-20241101_200337-m3q8eztk\\logs\\debug-core.log"}
+{"time":"2024-11-01T20:03:37.2376252+05:30","level":"INFO","msg":"created new stream","id":"m3q8eztk"}
+{"time":"2024-11-01T20:03:37.2376252+05:30","level":"INFO","msg":"stream: started","id":"m3q8eztk"}
+{"time":"2024-11-01T20:03:37.2376252+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"m3q8eztk"}}
+{"time":"2024-11-01T20:03:37.2387814+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m3q8eztk"}}
+{"time":"2024-11-01T20:03:37.2387814+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"m3q8eztk"}}
+{"time":"2024-11-01T20:03:37.6367724+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-11-01T20:03:37.6367724+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"entity test_entity not found during upsertBucket\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

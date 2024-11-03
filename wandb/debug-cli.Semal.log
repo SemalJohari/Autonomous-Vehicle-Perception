@@ -1,0 +1,168 @@
+2024-11-02 01:11:32 ERROR 403 response executing GraphQL.
+2024-11-02 01:11:32 ERROR {"errors":[{"message":"permission denied","path":["upsertSweep"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertSweep":null}}
+2024-11-02 01:11:32 ERROR Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 354, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\cli\cli.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\cli\cli.py", line 886, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\normalize.py", line 73, in wrapper
+    raise err
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 3294, in upsert_sweep
+    raise e
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 3288, in upsert_sweep
+    response = self.gql(
+               ^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 326, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\util.py", line 881, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: permission denied
+
+2024-11-02 01:11:59 ERROR 403 response executing GraphQL.
+2024-11-02 01:11:59 ERROR {"errors":[{"message":"permission denied","path":["upsertSweep"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertSweep":null}}
+2024-11-02 01:11:59 ERROR Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 354, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\cli\cli.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\cli\cli.py", line 886, in sweep
+    sweep_id, warnings = api.upsert_sweep(
+                         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\normalize.py", line 73, in wrapper
+    raise err
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\apis\normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 3294, in upsert_sweep
+    raise e
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 3288, in upsert_sweep
+    response = self.gql(
+               ^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 326, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\sdk\lib\retry.py", line 147, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Semal\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\wandb\util.py", line 881, in no_retry_4xx
+    raise UsageError(body["errors"][0]["message"])
+wandb.errors.errors.UsageError: permission denied
+
+2024-11-02 01:23:23 INFO Running runs: []
+2024-11-02 01:23:24 INFO Agent received command: run
+2024-11-02 01:23:24 INFO Agent starting run with config:
+	arch: mobilenet_v3_small
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.00034184101089156435
+2024-11-02 01:23:24 INFO About to run command: python train.py --arch=mobilenet_v3_small --batch_size=8 --img_size=240 --log_preds=False --lr=0.00034184101089156435
+2024-11-02 01:23:29 INFO Running runs: ['6jo7nyg4']
+2024-11-02 01:24:01 INFO Cleaning up finished run: 6jo7nyg4
+2024-11-02 01:24:01 INFO Agent received command: run
+2024-11-02 01:24:01 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.000562530556743623
+2024-11-02 01:24:01 INFO About to run command: python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=0.000562530556743623
+2024-11-02 01:24:06 INFO Running runs: ['cyy00v74']
+2024-11-02 01:24:22 INFO Cleaning up finished run: cyy00v74
+2024-11-02 01:24:23 INFO Agent received command: run
+2024-11-02 01:24:23 INFO Agent starting run with config:
+	arch: mobilenet_v3_small
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.0007163198564812194
+2024-11-02 01:24:23 INFO About to run command: python train.py --arch=mobilenet_v3_small --batch_size=8 --img_size=240 --log_preds=False --lr=0.0007163198564812194
+2024-11-02 01:24:28 INFO Running runs: ['uqsikahx']
+2024-11-02 01:24:44 INFO Cleaning up finished run: uqsikahx
+2024-11-02 01:24:44 INFO Agent received command: run
+2024-11-02 01:24:44 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.005087423026250248
+2024-11-02 01:24:44 INFO About to run command: python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=0.005087423026250248
+2024-11-02 01:24:49 INFO Running runs: ['o0drdbzg']
+2024-11-02 01:25:10 INFO Cleaning up finished run: o0drdbzg
+2024-11-02 01:25:11 INFO Agent received command: run
+2024-11-02 01:25:11 INFO Agent starting run with config:
+	arch: convnext_tiny
+	batch_size: 8
+	img_size: 240
+	log_preds: False
+	lr: 0.0002608724076192532
+2024-11-02 01:25:11 INFO About to run command: python train.py --arch=convnext_tiny --batch_size=8 --img_size=240 --log_preds=False --lr=0.0002608724076192532
+2024-11-02 01:25:16 INFO Running runs: ['hiclzxgm']
+2024-11-02 01:25:48 ERROR Detected 5 failed runs in a row, shutting down.
+2024-11-02 01:25:48 INFO To change this value set WANDB_AGENT_MAX_INITIAL_FAILURES=val
+2024-11-02 01:27:34 INFO Running runs: []
+2024-11-02 01:27:35 INFO Agent received command: run
+2024-11-02 01:27:35 INFO Agent starting run with config:
+	arch: resnet18
+	batch_size: 4
+	img_size: 240
+	log_preds: False
+	lr: 0.00793997442068864
+2024-11-02 01:27:35 INFO About to run command: python train.py --arch=resnet18 --batch_size=4 --img_size=240 --log_preds=False --lr=0.00793997442068864
+2024-11-02 01:27:40 INFO Running runs: ['yzuyn79s']

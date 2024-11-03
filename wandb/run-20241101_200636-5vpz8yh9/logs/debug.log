@@ -1,0 +1,36 @@
+2024-11-01 20:06:36,070 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Current SDK version is 0.18.1
+2024-11-01 20:06:36,071 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Configure stats pid to 21748
+2024-11-01 20:06:36,071 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\.config\wandb\settings
+2024-11-01 20:06:36,072 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\settings
+2024-11-01 20:06:36,072 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-11-01 20:06:36,072 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-01 20:06:36,073 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-01 20:06:36,074 INFO    MainThread:21748 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:_log_setup():532] Logging user logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_200636-5vpz8yh9\logs\debug.log
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:_log_setup():533] Logging internal logs to C:\Users\Semal\Desktop\My Folder\Autonomous_vehicle_perception\wandb\run-20241101_200636-5vpz8yh9\logs\debug-internal.log
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:init():616] calling init triggers
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {'framework': 'fastai', 'img_size': (180, 320), 'batch_size': 8, 'augment': True, 'epochs': 10, 'lr': 0.002, 'arch': 'resnet18', 'pretrained': True, 'seed': 42, 'log_preds': True}
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:init():666] starting backend
+2024-11-01 20:06:36,075 INFO    MainThread:21748 [wandb_init.py:init():670] setting up manager
+2024-11-01 20:06:36,091 INFO    MainThread:21748 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-11-01 20:06:36,094 INFO    MainThread:21748 [wandb_init.py:init():678] backend started and connected
+2024-11-01 20:06:36,141 INFO    MainThread:21748 [wandb_run.py:_label_probe_notebook():1340] probe notebook
+2024-11-01 20:06:36,141 INFO    MainThread:21748 [wandb_run.py:_label_probe_notebook():1350] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-11-01 20:06:36,141 INFO    MainThread:21748 [wandb_init.py:init():773] updated telemetry
+2024-11-01 20:06:36,151 INFO    MainThread:21748 [wandb_init.py:init():806] communicating run to backend with 90.0 second timeout
+2024-11-01 20:07:11,457 WARNING MsgRouterThr:21748 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 20:08:07,082 ERROR   MainThread:21748 [wandb_init.py:init():832] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 20:08:07,084 ERROR   MainThread:21748 [wandb_init.py:init():1251] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 1241, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "C:\Users\Semal\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_init.py", line 838, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-01 20:10:14,274 WARNING MsgRouterThr:21748 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 20:10:14,291 WARNING MsgRouterThr:21748 [router.py:message_loop():77] message_loop has been closed
+2024-11-01 20:10:14,307 WARNING MsgRouterThr:21748 [router.py:message_loop():77] message_loop has been closed

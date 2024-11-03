@@ -1,0 +1,23 @@
+{"time":"2024-09-25T18:09:48.7256253+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-25T18:09:48.7261395+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous vehicle perception\\wandb\\run-20240925_180944-nh153uki\\logs\\debug-core.log"}
+{"time":"2024-09-25T18:09:48.7280304+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-25T18:09:48.7280304+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Semal\\Desktop\\My Folder\\Autonomous vehicle perception\\wandb\\run-20240925_180944-nh153uki\\logs\\debug-core.log"}
+{"time":"2024-09-25T18:09:48.7805814+05:30","level":"INFO","msg":"created new stream","id":"nh153uki"}
+{"time":"2024-09-25T18:09:48.7805814+05:30","level":"INFO","msg":"stream: started","id":"nh153uki"}
+{"time":"2024-09-25T18:09:48.7805814+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T18:09:48.7805814+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T18:09:48.7805814+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T18:09:49.274025+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-25T18:09:49.2751985+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-25T18:54:20.5788791+05:30","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-25T18:54:26.957817+05:30","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2024-09-25T20:54:00.0517761+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-25T20:54:00.0517761+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-25T20:54:00.9287949+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-09-25T20:54:00.9290377+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-09-25T20:54:00.9290377+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-25T20:54:03.2823254+05:30","level":"INFO","msg":"stream: closing","id":"nh153uki"}
+{"time":"2024-09-25T20:54:03.2823254+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T20:54:03.2823254+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T20:54:03.2823254+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"nh153uki"}}
+{"time":"2024-09-25T20:54:03.2823254+05:30","level":"INFO","msg":"stream: closed","id":"nh153uki"}
