@@ -8,7 +8,7 @@ from fastai.callback.wandb import WandbCallback
 from sklearn.metrics import ConfusionMatrixDisplay
 from IPython.display import display, Markdown
 
-WANDB_PROJECT = "mlops-course-001"
+WANDB_PROJECT = "mlops-project"
 ENTITY = None
 BDD_CLASSES = {i:c for i,c in enumerate(['background', 'road', 'traffic light', 'traffic sign', 'person', 'vehicle', 'bicycle'])}
 RAW_DATA_AT = 'av-team/mlops-course-001/bdd_simple_1k'
