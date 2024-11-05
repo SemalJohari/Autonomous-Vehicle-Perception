@@ -5,7 +5,7 @@ program: train.py
 method: random
 
 # Project this sweep is part of
-project: mlops-course-001
+project: mlops-project
 entity: None
 
 # Metric to optimize
